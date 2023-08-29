@@ -67,5 +67,3 @@ Para dúvidas ou oportunidades de colaboração, entre em contato comigo:
 Vamos nos conectar e discutir as infinitas possibilidades do desenvolvimento moderno!
 
 ---
-
-*Observação: Substitua URLs de imagens, informações de contato e outros espaços reservados pelo conteúdo real.*
