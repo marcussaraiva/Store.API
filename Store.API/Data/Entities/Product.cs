@@ -24,9 +24,10 @@ namespace Store.API.Data.Entities
         
         [Column("IN_PRO_STORAGE")]
         public int Storage { get; set; }
-        
-        [Column("ST_PRO_CATEGORY", TypeName = "VARCHAR(30)")]
-        public string Category { get; set; }
+
+        [ForeignKey("Category")]
+        [Column("FK_CAT_PRO")]
+        public uint CategoryId { get; set; }
 
         [Required]
         [Column("DT_PRO_CREATED_AT")]
@@ -34,5 +35,7 @@ namespace Store.API.Data.Entities
         
         [Column("DT_PRO_UPDATED_AT")]
         public DateTime UpdatedAt { get; set; }
+
+        public Category Category { get; set; }
     }
 }
