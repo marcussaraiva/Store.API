@@ -32,8 +32,7 @@ Bem-vindo ao repositório **Store.API**! Este projeto serve como um estudo pesso
 
 Este projeto ainda está em desenvolvimento. Até agora, foram concluídas as seguintes etapas:
 
-1. Definição das Entidades e Relacionamentos.
-2. Configuração do Ambiente de Desenvolvimento.
+1. Configurado o banco com o Entity Framework.
 
 ## Próximos Passos
 
